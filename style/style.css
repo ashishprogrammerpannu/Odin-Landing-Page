@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: #1F2937;
+    color: white;
+    overflow: hidden;
+}
+
+.title{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.logo > img{
+    height: auto;
+    width: 50px;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav > .nav{
+    display: flex;
+    gap: 10px;
+} 
+
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.website{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.website > div >.signup{
+    padding: 10px;
+    background-color: rgb(53, 124, 255);
+    border: 0.5px rgb(0, 0, 0) solid;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.main, .main1, .main2, .main3{
+    display: flex;
+    flex-direction: column ;
+}
+
+.main1, .main2{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    min-height: 50vh;
+}
+
+.cardimage{
+    width: 250px;
+    height: 250px;
+} 
+
+.main1 > ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.testimony{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.main2{
+    background-color: #E5E7EB;
+}
+
+.testimony :nth-child(2){
+    align-self: flex-end;
+
+}
+
+.main3{
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.main32{
+    display: flex;
+    background-color: #3882F6;
+    min-height: 25vh;
+    width: 80%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.signuptitle{
+    font-size: 32px;
+}
+
+.main32 :nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signup{
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 5px;
+    color: white;
+    background-color: #3882F6;
+    width: 100px;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+}
